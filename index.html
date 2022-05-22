@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="./main.js"></script>
+  <link href="./main.css" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+<body onload="pageLoaded();">
+
+  <figure>
+    <audio id="audioElement"
+        src="./gladosScoldsAnIdiot.wav">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+  </figure>
+
+  <video autoplay muted style="width: 0%; height: 0%;">
+		<source src="info.mp4" type="video/mp4">
+	</video>
+	<div id="loader">
+		<img src="./loader.gif">
+		<h1>Checking your browser before accessing blog-goes.github.io</h1>
+		<p>This process is automatic. Your browser will redirect to your requested content shortly.</p>
+		<p>Please allow up to 5 seconds...</p>
+		<br>
+		<p>DDoS protection by <a href="https://github.com/">Github</a></p>
+		<p>Ray ID: <code>5a97gh4856237f87</code></p>
+	</div>
+	<a style="display: none;" id="redirect" onclick="redirect()" href="#">Click here if you are not redirected</a>
+	<p style="display: none;" id="yhlol">If you see a link, please click it</p>
+	<h1 style="display: none;" id="oops">OOPS!<br>This only works on PC, sorry</h1>
+
+  <div id="mainContent" style="display: none;">
+    <h1 id="headerTitle">Turn up your volume</h1>
+  </div>
+</body>
+
+</html>

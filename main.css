@@ -1,0 +1,22 @@
+* {
+  font-family: sans-serif;
+}
+video {
+  width: 50%;
+}
+#loader img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#loader a {
+  text-decoration: none;
+  color: lightblue;
+}
+#loader {
+  text-align: center;
+}
+code {
+  font-family: courier, monospace;
+}
